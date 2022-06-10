@@ -35,7 +35,6 @@ function WorkoutWrapper() {
   return (
     <div className="workout-wrapper">
       <h1>MOJE TRENINGI:</h1>
-      <h1>Hello ${REACT_APP_CLIENT_ID}</h1>
       {workoutList.map((val, key) => {
         return (
           <div className={`workout-wrapper-background ${val.type}`}>
