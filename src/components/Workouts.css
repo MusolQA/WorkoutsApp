@@ -1,0 +1,132 @@
+/*
+Used colors:
+#293462
+#F24C4C
+#EC9B3B
+#F7D716
+*/
+
+body {
+  background-color: #371B58;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #7858A6; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #7858A6; 
+}
+
+.workout-wrapper {
+  background-color: #4C3575;
+  border: 1px solid #7858A6;
+  border-radius: 1rem;
+  text-align: center;
+  max-width: 80rem;
+  padding: 1rem;
+  margin: auto;
+  margin-bottom: 1rem;
+  max-height: 92vh;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
+
+
+.workout-wrapper-background {
+  background-image: url("../../images/general-sport.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 1px solid;
+  border-radius: 1rem;
+  min-height: 20rem;
+  max-width: 45rem;
+  text-align: center;
+  display: flex;
+  margin: auto;
+  margin-bottom: 1rem;
+
+}
+
+.Swim {
+  background-image: url("../../images/swimming.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.WeightTraining {
+  background-image: url("../../images/gym.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.Run {
+  background-image: url("../../images/run.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.Ride {
+  background-image: url("../../images/bicycle.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.workout-wrapper-details {
+  background-color: rgba(91, 75, 138, 0.55);
+  border: 1px solid;
+  border-radius: 1rem;
+  min-height: 20rem;
+  max-width: 45rem;
+  text-align: center;
+  display: flex;
+  margin: auto;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  width: 40rem;
+
+
+}
+
+p {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  color: whitesmoke;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+  text-shadow: 1px 1px 3px #000;
+}
+
+h1 {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  color: whitesmoke;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2.5rem;
+  letter-spacing: 0.1rem;
+  text-shadow: 1px 1px 3px #000;
+  padding: 1.5rem;
+}
+
