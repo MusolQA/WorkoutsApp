@@ -4,7 +4,7 @@ import {
   REACT_APP_CLIENT_ID,
   REACT_APP_CLIENT_SECRET,
   REACT_APP_REFRESH_TOKEN,
-} from "../config/config";
+} from "./config/config.js";
 
 export async function getAccessToken() {
   try {
